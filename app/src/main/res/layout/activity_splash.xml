@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pozadinabezpozadine"
+
+    >
+
+    <Button
+        android:id="@+id/idnagadjanje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/nagadjanje"
+        app:backgroundTint="#303F9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zabavnecinjeniceid"
+        />
+
+    <ImageView
+        android:id="@+id/logonaglavnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-255dp"
+        android:contentDescription="@string/slikanameniju"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bezpozadine__1_" />
+
+
+    <Button
+        android:id="@+id/zabavnecinjeniceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+
+        android:text="@string/zabavne_cinjenice"
+
+        app:backgroundTint="#303F9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prikazpolokacijiid"
+        />
+
+    <Button
+        android:id="@+id/prikazpolokacijiid"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="261dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="161dp"
+        android:background="#000000"
+
+
+        android:text="@string/prikaz_po_lokaciji"
+        app:backgroundTint="#303F9F"
+        app:cornerRadius="0dp"
+        app:iconPadding="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

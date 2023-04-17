@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".NagadjanjeActivity"
+    android:background="@drawable/pozadinabezpozadine">
+
+    <Button
+        android:id="@+id/nagadjanje1"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/dugme1"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/nagadjanje2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nagadjanje3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/dugme3"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/nagadjanje4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nagadjanje2" />
+
+    <Button
+        android:id="@+id/nagadjanje4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/dugme4"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nagadjanje3" />
+
+    <Button
+        android:id="@+id/nagadjanje2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="46dp"
+        android:layout_weight="2"
+        android:text="@string/dugme2"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/nagadjanje3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nagadjanje1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

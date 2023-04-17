@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BirdSentinel</string>
+    <string name="nagadjanje">Nagađanje</string>
+    <string name="idi_na_nagadjanje">Idi na nagadjanje</string>
+    <string name="slikaptice">Slikaptice</string>
+    <string name="upamti_sliku">Upamti sliku</string>
+    <string name="imas_5_sekundi">Imaš 5 sekundi..</string>
+    <string name="upatmi_sliku">Upamti sliku</string>
+    <string name="randomslika">randomslika</string>
+    <string name="imas_5_sekundi2">Imaš 5 sekundi...</string>
+    <string name="slikanameniju">slikanameniju</string>
+    <string name="zabavne_cinjenice">Zabavne činjenice</string>
+    <string name="prikaz_po_lokaciji">Prikaz po lokaciji</string>
+    <string name="dugme4">dugme4</string>
+    <string name="dugme3">dugme3</string>
+    <string name="dugme2">dugme2</string>
+    <string name="dugme1">dugme1</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NagadjanjePticaActivity"
+    android:background="@drawable/pozadinabezpozadine">
+
+    <TextView
+        android:id="@+id/upatmislikuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="389dp"
+        android:text="@string/upatmi_sliku"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:visibility="visible"></TextView>
+
+    <TextView
+        android:id="@+id/upatmislikuid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="-141dp"
+        android:text="@string/imas_5_sekundi2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:visibility="visible"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/randomslika"
+        android:scaleType="centerInside"
+        android:tag="ptica" />
+
+
+</RelativeLayout>

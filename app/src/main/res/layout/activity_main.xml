@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/splash"
+    >
+
+<!--    <Button-->
+<!--        android:id="@+id/idnagadjanje"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="158dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:layout_marginEnd="159dp"-->
+<!--        android:text="@string/nagadjanje"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/prikazsacuvanihid" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/logonaglavnom"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="-225dp"-->
+<!--        android:contentDescription="@string/slikanameniju"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/bezpozadine__1_" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/prikazsacuvanihid"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="@string/sacuvane_ptice"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.492"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/prikazpolokacijiid" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/prikazpolokacijiid"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="156dp"-->
+<!--        android:layout_marginTop="54dp"-->
+<!--        android:layout_marginEnd="161dp"-->
+<!--        android:text="@string/prikaz_po_lokaciji"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
